@@ -15,7 +15,7 @@ This repository contains a RESTful API for the GameStore application, built with
 
 
 ## Requirements
-- .NET 6 SDK
+- .NET 8.0.2  SDK
 - SQLite
 ## Installation
 
