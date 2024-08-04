@@ -1,0 +1,26 @@
+POST http://localhost:5243/
+Content-Type: application/json
+
+{
+    "name": "vice city",
+    "genreId": 1,
+    "price": 15.0,
+    "releaseDate": "2024-07-18"
+}
+
+###
+GET  http://localhost:5243/
+
+###
+PUT http://localhost:5243/1
+Content-Type: application/json
+
+{
+    "name": "I love u",
+    "genreId": 1,
+    "price": 10,
+    "releaseDate": "2024-07-18"
+}
+
+###
+DELETE http://localhost:5243/games/1
